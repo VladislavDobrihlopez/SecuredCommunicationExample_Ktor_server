@@ -1,0 +1,14 @@
+site:
+  title: "CommunicationKtorServerTest"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/communicationktorservertest.js"
+      api: "build/libs/communicationktorservertest.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/communicationktorservertest.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
